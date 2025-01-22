@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{76E5D012-D715-4AC6-AB86-B6C30A758443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-CommerceApp.MVC", "WebUI\e-CommerceApp.MVC\e-CommerceApp.MVC.csproj", "{A569EEBD-2B9F-4342-86B5-4CDAB8D81C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{5EE489A3-7DF9-418B-ACA2-24FB164493D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C6CC4756-CB05-4442-A13F-46161648D9FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{65AD9C98-9C01-4F70-9095-4127923F2B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-CommerceApp.DataLayer", "Data\e-CommerceApp.DataLayer\e-CommerceApp.DataLayer.csproj", "{01379B9C-C670-4D15-9C02-3F44430C7439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-CommerceApp.EntitiyLayer", "Models\e-CommerceApp.EntitiyLayer\e-CommerceApp.EntitiyLayer.csproj", "{F242F807-86FA-4C4B-9D1D-28F3EF3D29CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-CommerceApp.BusinessLayer", "Service\e-CommerceApp.BusinessLayer\e-CommerceApp.BusinessLayer.csproj", "{23C22346-8BE8-4330-A407-4BFC6234B215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A569EEBD-2B9F-4342-86B5-4CDAB8D81C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A569EEBD-2B9F-4342-86B5-4CDAB8D81C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A569EEBD-2B9F-4342-86B5-4CDAB8D81C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A569EEBD-2B9F-4342-86B5-4CDAB8D81C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01379B9C-C670-4D15-9C02-3F44430C7439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01379B9C-C670-4D15-9C02-3F44430C7439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01379B9C-C670-4D15-9C02-3F44430C7439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01379B9C-C670-4D15-9C02-3F44430C7439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F242F807-86FA-4C4B-9D1D-28F3EF3D29CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F242F807-86FA-4C4B-9D1D-28F3EF3D29CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F242F807-86FA-4C4B-9D1D-28F3EF3D29CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F242F807-86FA-4C4B-9D1D-28F3EF3D29CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C22346-8BE8-4330-A407-4BFC6234B215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C22346-8BE8-4330-A407-4BFC6234B215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C22346-8BE8-4330-A407-4BFC6234B215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C22346-8BE8-4330-A407-4BFC6234B215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A569EEBD-2B9F-4342-86B5-4CDAB8D81C2E} = {76E5D012-D715-4AC6-AB86-B6C30A758443}
+		{01379B9C-C670-4D15-9C02-3F44430C7439} = {C6CC4756-CB05-4442-A13F-46161648D9FD}
+		{F242F807-86FA-4C4B-9D1D-28F3EF3D29CE} = {5EE489A3-7DF9-418B-ACA2-24FB164493D4}
+		{23C22346-8BE8-4330-A407-4BFC6234B215} = {65AD9C98-9C01-4F70-9095-4127923F2B21}
+	EndGlobalSection
+EndGlobal
